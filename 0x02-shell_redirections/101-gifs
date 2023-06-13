@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name \*.git -printf "%f\n" | i_C_ALL=sort -f | rev -b 5- | rev
